@@ -640,7 +640,7 @@ p {
 
 
 .work-experiance-card .work-experiance-slider li .date {
-	margin-right: 40px;
+	margin-right: 5px;
 }
 
 .work-experiance-card .work-experiance-slider li .date p {
@@ -670,14 +670,14 @@ p {
 }
 
 .work-experiance-card .work-experiance-slider li .info .text .title {
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 600;
 	color: var(--black);
 	line-height: 1.5em;
 }
 
 .work-experiance-card .work-experiance-slider li .info .text .subtitle {
-	font-size: 14px;
+	font-size: 10px;
 	font-weight: 400;
 	color: var(--light-black);
 	line-height: 1.42em;

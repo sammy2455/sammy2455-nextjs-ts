@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import {Header} from "@/components/common/Header";
+import {Footer} from "@/components/common/Footer";
+import { BackgroundShapes } from "@/components/common/BackgroundShapes";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -35,7 +38,12 @@ export default function RootLayout({
       </head>
       <body className={montserrat.className}>
         <div id="page-content">
-          {children}
+          <Header />
+            <main>
+              {children}
+            </main>
+            <BackgroundShapes />
+          <Footer />
         </div>
 
         <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
