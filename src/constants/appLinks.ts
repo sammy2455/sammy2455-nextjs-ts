@@ -1,10 +1,10 @@
 enum AppLinks {
     HOME = '/home',
     ABOUT = '/about',
-    SERVICES = 'services',
-    PORTFOLIO = 'portfolio',
+    SERVICES = '/services',
+    PORTFOLIO = '/portfolio',
     CONTACT = '/contact',
-    BLOG = 'blog',
+    BLOG = '/blog',
 }
 
 export default AppLinks;

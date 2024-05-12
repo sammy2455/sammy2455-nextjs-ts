@@ -1,0 +1,1 @@
+export { default as WorkTogetherSlider } from "./WorkTogetherSlider";

@@ -1,0 +1,24 @@
+.top-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.available-btn {
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: center;
+    max-width: 600px !important;
+    margin: 0 auto;
+}
+
+.description {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.description p {
+    font-size: 20px !important;
+}

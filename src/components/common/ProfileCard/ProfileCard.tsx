@@ -10,7 +10,7 @@ const ProfileCard: React.FC = () => {
                     <img src="https://github.com/sammy2455.png" alt="profile" height={250} className="w-auto"/>
                 </div>
                 <div className="text">
-                    <h3 className="card-title">Johnny Camatón 👋</h3>
+                    <h3 className="card-title">Johnny 👋</h3>
                     <p>Apasionado <span>Ingeniero en TI</span> 🖥️ con experiencia en el
                         diseño, desarrollo e implementación de sistemas informáticos en Ecuador 🇪🇨.
                     </p>

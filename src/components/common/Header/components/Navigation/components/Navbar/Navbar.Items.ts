@@ -17,10 +17,10 @@ export interface NavItem {
 const navbarItems: NavItem[] = [
     { path: AppLinks.HOME.toString(), label: 'Inicio', icon: HomeIcon },
     { path: AppLinks.ABOUT.toString(), label: 'Acerca de', icon: AboutIcon },
-    { path: AppLinks.SERVICES.toString(), label: 'Servicios', icon: ServicesIcon },
+    //{ path: AppLinks.SERVICES.toString(), label: 'Servicios', icon: ServicesIcon },
     { path: AppLinks.PORTFOLIO.toString(), label: 'Portafolio', icon: PortfolioIcon },
-    { path: AppLinks.CONTACT.toString(), label: 'Contacto', icon: ContactIcon },
-    { path: AppLinks.BLOG.toString(), label: 'Blog', icon: BlogIcon },
+    //{ path: AppLinks.CONTACT.toString(), label: 'Contacto', icon: ContactIcon },
+    //{ path: AppLinks.BLOG.toString(), label: 'Blog', icon: BlogIcon },
 ];
 
 export default navbarItems;

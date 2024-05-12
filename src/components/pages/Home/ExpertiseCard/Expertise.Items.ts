@@ -5,27 +5,27 @@ export interface Expertise {
 
 export const expertiseItems: Expertise[] = [
     {
-        icon: '/assets/img/images/technologies/laravel.svg',
+        icon: '/assets/img/icons/technologies/laravel.svg',
         title: 'Laravel',
     },
     {
-        icon: '/assets/img/images/technologies/fastapi.svg',
+        icon: '/assets/img/icons/technologies/fastapi.svg',
         title: 'FastAPI',
     },
     {
-        icon: '/assets/img/images/technologies/nestjs.svg',
+        icon: '/assets/img/icons/technologies/nestjs.svg',
         title: 'NestJS',
     },
     {
-        icon: '/assets/img/images/technologies/postgresql.svg',
-        title: 'PostgreSQL',
-    },
-    {
-        icon: '/assets/img/images/technologies/mysql.svg',
+        icon: '/assets/img/icons/technologies/mysql.svg',
         title: 'MySQL',
     },
     {
-        icon: '/assets/img/images/technologies/nextjs.svg',
+        icon: '/assets/img/icons/technologies/postgresql.svg',
+        title: 'PostgreSQL',
+    },
+    {
+        icon: '/assets/img/icons/technologies/nextjs.svg',
         title: 'Next.js',
     },
 ];
