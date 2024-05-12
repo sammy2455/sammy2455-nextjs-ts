@@ -1,5 +1,5 @@
 enum AppLinks {
-    HOME = '/',
+    HOME = '/home',
     ABOUT = '/about',
     SERVICES = 'services',
     PORTFOLIO = 'portfolio',
