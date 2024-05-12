@@ -1,13 +1,14 @@
 import React from "react";
 import CopyIcon from "@/components/common/Icons/CopyIcon";
 import socialMediaItems from "./SocialMedia.Items";
+import Image from "next/image";
 
 const ProfileCard: React.FC = () => {
     return (
         <div className="card profile-card">
             <div className="card-body">
                 <div className="image text-center">
-                    <img src="https://github.com/sammy2455.png" alt="profile" height={250} className="w-auto"/>
+                    <Image src="https://github.com/sammy2455.png" alt="profile" height={250} width={250} className="w-auto"/>
                 </div>
                 <div className="text">
                     <h3 className="card-title">Johnny 👋</h3>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import {Header} from "@/components/common/Header";
 import {Footer} from "@/components/common/Footer";
@@ -46,13 +47,13 @@ export default function RootLayout({
           <Footer />
         </div>
 
-        <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="/assets/js/ajax-form.js"></script>
-        <script src="/assets/js/clipboard.min.js"></script>
-        <script src="/assets/js/slick.min.js"></script>
-        <script src="/assets/js/script.js"></script>
+        <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
+        <Script src="/assets/js/bootstrap.bundle.min.js"></Script>
+        <Script src="/assets/js/jquery.magnific-popup.min.js"></Script>
+        <Script src="/assets/js/ajax-form.js"></Script>
+        <Script src="/assets/js/clipboard.min.js"></Script>
+        <Script src="/assets/js/slick.min.js"></Script>
+        <Script src="/assets/js/script.js"></Script>
       </body>
     </html>
   );

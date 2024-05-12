@@ -1,5 +1,6 @@
 import React from "react";
 import { expertiseItems } from './Expertise.Items';
+import Image from "next/image";
 
 const ExpertiseCard: React.FC = () => {
     return (
@@ -12,7 +13,7 @@ const ExpertiseCard: React.FC = () => {
                             <div key={index} className="col-xl-4 col-md-4 col-sm-6 col-6">
                                 <div className="expertise-item">
                                     <div className="image text-center">
-                                        <img src={expertise.icon} alt={expertise.title} />
+                                        <Image src={expertise.icon} height={32} width={32} alt={expertise.title} />
                                     </div>
                                     <div className="text">
                                         <h4 className="title">{expertise.title}</h4>
