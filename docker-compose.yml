@@ -6,10 +6,6 @@ services:
       dockerfile: ./dockerfiles/node.dockerfile
     container_name: node-sammy2455
     restart: unless-stopped
-    volumes:
-      - ./:/app
-      - /app/node_modules
-      - /app/.next
     ports:
       - "2455:3000"
     networks:
