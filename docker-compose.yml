@@ -3,8 +3,7 @@ version: "3.8"
 services:
   node:
     build:
-      context: ./dockerfiles
-      dockerfile: node.dockerfile
+      dockerfile: ./dockerfiles/node.dockerfile
     container_name: node-sammy2455
     restart: unless-stopped
     volumes:
@@ -12,7 +11,7 @@ services:
       - /app/node_modules
       - /app/.next
     ports:
-      - "2245:3000"
+      - "2455:3000"
     networks:
       - sammy
 

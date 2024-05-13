@@ -1,15 +1,13 @@
-FROM node:20.10-alpine
+FROM node:20.10
 
 RUN mkdir -p /app
 
 WORKDIR /app
 
-COPY package*.json /app
-
-RUN yarn install
-
 COPY . /app
 
-EXPOSE 2245
+RUN npm install
 
-CMD ["yarn", "dev"]
+EXPOSE 3000
+
+CMD ["npm", "start"]
