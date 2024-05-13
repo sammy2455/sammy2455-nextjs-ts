@@ -1,7 +1,6 @@
 import React from "react";
 import PlusIcon from "@/components/common/Icons/PlusIcon";
 import ArrowUp from "@/components/common/Icons/ArrowUp";
-import Image from "next/image";
 
 interface Project {
     id: number;
@@ -33,7 +32,7 @@ const PortfolioArea: React.FC = () => {
                     <div key={project.id} className="col-lg-12">
                         <div className="portfolio-item">
                             <div className="image">
-                                <Image src={project.image} height={867} width={1233} alt={`project-${project.id}`} className="img-fluid" />
+                                <img src={project.image} height={867} width={1233} alt={`project-${project.id}`} className="img-fluid" />
                                 <a href={project.image} className="gallery-popup full-image-preview parent-container">
                                     <PlusIcon />
                                 </a>

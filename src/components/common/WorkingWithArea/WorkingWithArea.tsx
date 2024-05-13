@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const WorkingWithArea: React.FC = () => {
     const technologies = [
@@ -32,7 +31,7 @@ const WorkingWithArea: React.FC = () => {
             <div className="working-with-main">
                 {technologies.map((tech, index) => (
                     <div key={index} className="items">
-                        <Image src={tech.src} height={48} width={48} alt={tech.alt} />
+                        <img src={tech.src} height={48} width={48} alt={tech.alt} />
                     </div>
                 ))}
             </div>

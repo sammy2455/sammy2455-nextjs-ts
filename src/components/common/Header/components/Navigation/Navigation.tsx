@@ -1,11 +1,8 @@
 import React from "react";
 import { Logo } from "./components/Logo";
 import { Navbar } from "./components/Navbar";
-import Link from "next/link";
 import DarkIcon from "@/components/common/Icons/DarkIcon";
 import LightIcon from "@/components/common/Icons/LightIcon";
-import UpperArrow from "@/components/common/Icons/UpperArrow";
-import AppLinks from "@/constants/appLinks";
 
 const Navigation: React.FC = () => {
     return (
@@ -23,9 +20,6 @@ const Navigation: React.FC = () => {
                         <small className="theme-text d-block d-xl-none">Cambiar apariencia</small>
                     </span>
                 </button>
-                <Link href={AppLinks.CONTACT.toString()} className="lets-talk-btn">
-                    Hablemos <UpperArrow />
-                </Link>
             </div>
         </div>
     );

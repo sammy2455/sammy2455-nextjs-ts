@@ -4,7 +4,6 @@ import PlusIcon from "@/components/common/Icons/PlusIcon";
 import Link from "next/link";
 import { projectItems } from './Projects.Items';
 import AppLinks from "@/constants/appLinks";
-import Image from "next/image";
 
 const ProjectsCard: React.FC = () => {
     return (
@@ -22,7 +21,7 @@ const ProjectsCard: React.FC = () => {
                             <div key={index} className="col-lg-12">
                                 <div className="project-item">
                                     <div className="image">
-                                        <Image src={project.image} height={867} width={1233} alt={`project-${index + 1}`} className="img-fluid w-100" />
+                                        <img src={project.image} height={867} width={1233} alt={`project-${index + 1}`} className="img-fluid w-100" />
                                         <a href={project.image} className="gallery-popup full-image-preview parent-container">
                                             <PlusIcon />
                                         </a>

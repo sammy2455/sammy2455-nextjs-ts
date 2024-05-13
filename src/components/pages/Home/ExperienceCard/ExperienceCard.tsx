@@ -1,6 +1,5 @@
 import React from "react";
 import { workExperience } from './WorkExperience.Items';
-import Image from "next/image";
 
 const ExperienceCard: React.FC = () => {
     return (
@@ -16,7 +15,7 @@ const ExperienceCard: React.FC = () => {
                                 </div>
                                 <div className="info">
                                     <div className="icon">
-                                        <Image src={experience.icon} height={20} width={20} alt={experience.company}/>
+                                        <img src={experience.icon} height={20} width={20} alt={experience.company}/>
                                     </div>
                                     <div className="text">
                                         <h4 className="title">{experience.title}</h4>
@@ -34,7 +33,7 @@ const ExperienceCard: React.FC = () => {
                                 </div>
                                 <div className="info">
                                     <div className="icon">
-                                        <Image src={experience.icon} height={20} width={20} alt={experience.company}/>
+                                        <img src={experience.icon} height={20} width={20} alt={experience.company}/>
                                     </div>
                                     <div className="text">
                                         <h4 className="title">{experience.title}</h4>
