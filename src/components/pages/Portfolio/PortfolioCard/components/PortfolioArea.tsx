@@ -7,6 +7,7 @@ interface Project {
     image: string;
     title: string;
     subtitle: string;
+    url: string;
 }
 
 const projects: Project[] = [
@@ -15,12 +16,14 @@ const projects: Project[] = [
         image: "/assets/img/projects/project-1.png",
         title: "Emby - Servidor de películas",
         subtitle: "Linux | Administración de servidores",
+        url: "https://emby.devslab.cloud",
     },
     {
         id: 2,
         image: "/assets/img/projects/project-2.png",
         title: "Hello - Página de inicio",
         subtitle: "Aplicación | Back-end | DevOps",
+        url: "https://www.he-llo.com/",
     },
 ];
 
@@ -43,8 +46,8 @@ const PortfolioArea: React.FC = () => {
                                     <p className="subtitle">{project.subtitle}</p>
                                 </div>
                                 <div className="visite-btn">
-                                    <a href="#">
-                                        Más información
+                                    <a target="_blank" href={project.url}>
+                                        Visitar proyecto
                                         <ArrowUp />
                                     </a>
                                 </div>
